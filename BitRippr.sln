@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitRippr.Console", "BitRippr\BitRippr.Console.csproj", "{3B8676B1-CAC9-46B2-AFA5-6806856B6062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitRippr.Core", "BitRipper.Core\BitRippr.Core.csproj", "{609611AD-766A-466B-86F6-9DD4DD6CE719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitRippr.Test", "BitRippr.Test\BitRippr.Test.csproj", "{ED77433B-4497-4154-8707-177474D5C83B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2F1BB32F-1B6F-40CF-A897-A52D14554DE9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B8676B1-CAC9-46B2-AFA5-6806856B6062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8676B1-CAC9-46B2-AFA5-6806856B6062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8676B1-CAC9-46B2-AFA5-6806856B6062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8676B1-CAC9-46B2-AFA5-6806856B6062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609611AD-766A-466B-86F6-9DD4DD6CE719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609611AD-766A-466B-86F6-9DD4DD6CE719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609611AD-766A-466B-86F6-9DD4DD6CE719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609611AD-766A-466B-86F6-9DD4DD6CE719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED77433B-4497-4154-8707-177474D5C83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED77433B-4497-4154-8707-177474D5C83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED77433B-4497-4154-8707-177474D5C83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED77433B-4497-4154-8707-177474D5C83B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
